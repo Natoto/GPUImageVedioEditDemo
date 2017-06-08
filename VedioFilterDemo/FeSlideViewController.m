@@ -40,19 +40,6 @@ int test(int a,int b){
 }
 
 @implementation FeSlideViewController
--(PPVideoWaterMarkModel *)watermodel{
-    if (!_watermodel) {
-        _watermodel = [PPVideoWaterMarkModel new];
-    }
-    return _watermodel;
-}
--(PPCaptureVedioSaveModel *)model{
-    if (!_model) {
-        _model = [[PPCaptureVedioSaveModel alloc] initWithCamera:self.captureView.stillCamera vedioImageView:self.captureView.vidioImageView];
-    }
-    return _model;
-}
-
 
 - (void)viewDidLoad {
 
@@ -172,6 +159,21 @@ int test(int a,int b){
     subView.opaque = NO;
     return subView;
 }
+
+
+-(PPVideoWaterMarkModel *)watermodel{
+    if (!_watermodel) {
+        _watermodel = [PPVideoWaterMarkModel new];
+    }
+    return _watermodel;
+}
+-(PPCaptureVedioSaveModel *)model{
+    if (!_model) {
+        _model = [[PPCaptureVedioSaveModel alloc] initWithCamera:self.captureView.stillCamera vedioImageView:self.captureView.vidioImageView];
+    }
+    return _model;
+}
+
 @end
 
 
