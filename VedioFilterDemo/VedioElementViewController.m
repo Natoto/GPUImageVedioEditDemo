@@ -146,20 +146,22 @@
 
 -(void)save_to_photosAlbum:(NSString *)pathToMovie
 {
-    
-    ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-    if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(pathToMovie))
-    {
-        [library writeVideoAtPathToSavedPhotosAlbum:[NSURL fileURLWithPath:pathToMovie] completionBlock:^(NSURL *assetURL, NSError *error)
-         {
-             dispatch_async(dispatch_get_main_queue(), ^{ 
-                 [self showmsg:assetURL.relativePath];
-             });
-         }];
-    }
-    else {
-        NSLog(@"error mssg)");
-    }
+    [self.model saveToAblum:^(NSURL *assetURL) {
+        [self showmsg:assetURL.relativePath];
+    }];
+//    ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
+//    if (UIVideoAtPathIsCompatibleWithSavedPhotosAlbum(pathToMovie))
+//    {
+//        [library writeVideoAtPathToSavedPhotosAlbum:[NSURL fileURLWithPath:pathToMovie] completionBlock:^(NSURL *assetURL, NSError *error)
+//         {
+//             dispatch_async(dispatch_get_main_queue(), ^{ 
+//                 [self showmsg:assetURL.relativePath];
+//             });
+//         }];
+//    }
+//    else {
+//        NSLog(@"error mssg)");
+//    }
 }
 
 -(UIView *)creatsubview:(CGSize)size{
@@ -179,7 +181,7 @@
 //    subView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.5];
     
     [subView addSubview:label];
-    for (int index = 0; index<2; index++) {
+    for (int index = 0; index<1; index++) {
         UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
         imageView.center = CGPointMake(size.width-20, size.height-20);
         [subView addSubview:imageView];
