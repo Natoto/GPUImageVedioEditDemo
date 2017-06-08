@@ -1,0 +1,28 @@
+PODS:
+  - FeSlideFilterView (0.0.2)
+  - GPUImage (0.1.7)
+  - PPSliderCaptureView (0.0.4):
+    - GPUImage
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - FeSlideFilterView (from `/Users/boo/Documents/demo/HBLocalPod`)
+  - GPUImage (~> 0.1.7)
+  - PPSliderCaptureView (from `/Users/boo/Documents/demo/HBLocalPod`)
+  - SVProgressHUD
+
+EXTERNAL SOURCES:
+  FeSlideFilterView:
+    :path: "/Users/boo/Documents/demo/HBLocalPod"
+  PPSliderCaptureView:
+    :path: "/Users/boo/Documents/demo/HBLocalPod"
+
+SPEC CHECKSUMS:
+  FeSlideFilterView: 49a81e85467dd7877665a249d3b5797ad0fb053e
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  PPSliderCaptureView: 5f95277f73aa178aba001bd93167024fc1254e42
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: ffb21672d34bd406bdb4d39e3abcc1cd592aee19
+
+COCOAPODS: 1.1.1

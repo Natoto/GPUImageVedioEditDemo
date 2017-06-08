@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D1520175CCE74489A4361D /* libPods-VedioFilterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0F6AC4AAD520CD6178E0DD /* libPods-VedioFilterDemo.a */; };
+		F88A28171ED5635E00C0ECE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A28161ED5635E00C0ECE1 /* main.m */; };
+		F88A281A1ED5635E00C0ECE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A28191ED5635E00C0ECE1 /* AppDelegate.m */; };
+		F88A281D1ED5635E00C0ECE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A281C1ED5635E00C0ECE1 /* ViewController.m */; };
+		F88A28201ED5635E00C0ECE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88A281E1ED5635E00C0ECE1 /* Main.storyboard */; };
+		F88A28221ED5635E00C0ECE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88A28211ED5635E00C0ECE1 /* Assets.xcassets */; };
+		F88A28251ED5635E00C0ECE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88A28231ED5635E00C0ECE1 /* LaunchScreen.storyboard */; };
+		F88A28341ED56E7D00C0ECE1 /* FeSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A28331ED56E7D00C0ECE1 /* FeSlideViewController.m */; };
+		F88A28361ED56EED00C0ECE1 /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88A28351ED56EED00C0ECE1 /* done@2x.png */; };
+		F88A28381ED56F4200C0ECE1 /* profileios.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F88A28371ED56F4200C0ECE1 /* profileios.jpeg */; };
+		F88A283A1ED570EC00C0ECE1 /* Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88A28391ED570EC00C0ECE1 /* Camera@2x.png */; };
+		F8C0082F1EE7D9FC004C4234 /* abc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F8C0082E1EE7D9FC004C4234 /* abc.mp4 */; };
+		F8CE079E1EE45E7900273AE4 /* VedioElementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE079D1EE45E7900273AE4 /* VedioElementViewController.m */; };
+		F8CE07A11EE4607100273AE4 /* Square.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F8CE07A01EE4607100273AE4 /* Square.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F42289271FB9FC906483E69 /* Pods-VedioFilterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VedioFilterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VedioFilterDemo/Pods-VedioFilterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5A9B319F16F0EECBF4F817E1 /* Pods-VedioFilterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VedioFilterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VedioFilterDemo/Pods-VedioFilterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9C0F6AC4AAD520CD6178E0DD /* libPods-VedioFilterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VedioFilterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A28121ED5635E00C0ECE1 /* VedioFilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VedioFilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88A28161ED5635E00C0ECE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F88A28181ED5635E00C0ECE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F88A28191ED5635E00C0ECE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F88A281B1ED5635E00C0ECE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F88A281C1ED5635E00C0ECE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F88A281F1ED5635E00C0ECE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F88A28211ED5635E00C0ECE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F88A28241ED5635E00C0ECE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F88A28261ED5635E00C0ECE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88A28321ED56E7D00C0ECE1 /* FeSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSlideViewController.h; sourceTree = "<group>"; };
+		F88A28331ED56E7D00C0ECE1 /* FeSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSlideViewController.m; sourceTree = "<group>"; };
+		F88A28351ED56EED00C0ECE1 /* done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done@2x.png"; sourceTree = "<group>"; };
+		F88A28371ED56F4200C0ECE1 /* profileios.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profileios.jpeg; sourceTree = "<group>"; };
+		F88A28391ED570EC00C0ECE1 /* Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@2x.png"; sourceTree = "<group>"; };
+		F8C0082E1EE7D9FC004C4234 /* abc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.mp4; sourceTree = "<group>"; };
+		F8CE079C1EE45E7900273AE4 /* VedioElementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioElementViewController.h; sourceTree = "<group>"; };
+		F8CE079D1EE45E7900273AE4 /* VedioElementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioElementViewController.m; sourceTree = "<group>"; };
+		F8CE07A01EE4607100273AE4 /* Square.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Square.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F88A280F1ED5635E00C0ECE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D1520175CCE74489A4361D /* libPods-VedioFilterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82256EECBCD690414DC5763D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C0F6AC4AAD520CD6178E0DD /* libPods-VedioFilterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA26B258727621AB540FC244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A9B319F16F0EECBF4F817E1 /* Pods-VedioFilterDemo.debug.xcconfig */,
+				2F42289271FB9FC906483E69 /* Pods-VedioFilterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F88A28091ED5635E00C0ECE1 = {
+			isa = PBXGroup;
+			children = (
+				F88A28141ED5635E00C0ECE1 /* VedioFilterDemo */,
+				F88A28131ED5635E00C0ECE1 /* Products */,
+				AA26B258727621AB540FC244 /* Pods */,
+				82256EECBCD690414DC5763D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F88A28131ED5635E00C0ECE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F88A28121ED5635E00C0ECE1 /* VedioFilterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F88A28141ED5635E00C0ECE1 /* VedioFilterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F88A28181ED5635E00C0ECE1 /* AppDelegate.h */,
+				F88A28191ED5635E00C0ECE1 /* AppDelegate.m */,
+				F88A281B1ED5635E00C0ECE1 /* ViewController.h */,
+				F88A281C1ED5635E00C0ECE1 /* ViewController.m */,
+				F88A281E1ED5635E00C0ECE1 /* Main.storyboard */,
+				F88A28321ED56E7D00C0ECE1 /* FeSlideViewController.h */,
+				F88A28331ED56E7D00C0ECE1 /* FeSlideViewController.m */,
+				F8CE079C1EE45E7900273AE4 /* VedioElementViewController.h */,
+				F8CE079D1EE45E7900273AE4 /* VedioElementViewController.m */,
+				F88A28211ED5635E00C0ECE1 /* Assets.xcassets */,
+				F88A28351ED56EED00C0ECE1 /* done@2x.png */,
+				F88A28371ED56F4200C0ECE1 /* profileios.jpeg */,
+				F8CE07A01EE4607100273AE4 /* Square.mp4 */,
+				F8C0082E1EE7D9FC004C4234 /* abc.mp4 */,
+				F88A28391ED570EC00C0ECE1 /* Camera@2x.png */,
+				F88A28231ED5635E00C0ECE1 /* LaunchScreen.storyboard */,
+				F88A28261ED5635E00C0ECE1 /* Info.plist */,
+				F88A28151ED5635E00C0ECE1 /* Supporting Files */,
+			);
+			path = VedioFilterDemo;
+			sourceTree = "<group>";
+		};
+		F88A28151ED5635E00C0ECE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F88A28161ED5635E00C0ECE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F88A28111ED5635E00C0ECE1 /* VedioFilterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F88A28291ED5635E00C0ECE1 /* Build configuration list for PBXNativeTarget "VedioFilterDemo" */;
+			buildPhases = (
+				B226895C6086A600E910FE4D /* [CP] Check Pods Manifest.lock */,
+				F88A280E1ED5635E00C0ECE1 /* Sources */,
+				F88A280F1ED5635E00C0ECE1 /* Frameworks */,
+				F88A28101ED5635E00C0ECE1 /* Resources */,
+				1814A622A27747560666B837 /* [CP] Embed Pods Frameworks */,
+				F38735DF562FB43B8E92ED95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VedioFilterDemo;
+			productName = VedioFilterDemo;
+			productReference = F88A28121ED5635E00C0ECE1 /* VedioFilterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F88A280A1ED5635E00C0ECE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YY.COM;
+				TargetAttributes = {
+					F88A28111ED5635E00C0ECE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 32M62TMXC7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F88A280D1ED5635E00C0ECE1 /* Build configuration list for PBXProject "VedioFilterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F88A28091ED5635E00C0ECE1;
+			productRefGroup = F88A28131ED5635E00C0ECE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F88A28111ED5635E00C0ECE1 /* VedioFilterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F88A28101ED5635E00C0ECE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CE07A11EE4607100273AE4 /* Square.mp4 in Resources */,
+				F88A28251ED5635E00C0ECE1 /* LaunchScreen.storyboard in Resources */,
+				F88A283A1ED570EC00C0ECE1 /* Camera@2x.png in Resources */,
+				F88A28221ED5635E00C0ECE1 /* Assets.xcassets in Resources */,
+				F8C0082F1EE7D9FC004C4234 /* abc.mp4 in Resources */,
+				F88A28361ED56EED00C0ECE1 /* done@2x.png in Resources */,
+				F88A28381ED56F4200C0ECE1 /* profileios.jpeg in Resources */,
+				F88A28201ED5635E00C0ECE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1814A622A27747560666B837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VedioFilterDemo/Pods-VedioFilterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B226895C6086A600E910FE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F38735DF562FB43B8E92ED95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VedioFilterDemo/Pods-VedioFilterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F88A280E1ED5635E00C0ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CE079E1EE45E7900273AE4 /* VedioElementViewController.m in Sources */,
+				F88A281D1ED5635E00C0ECE1 /* ViewController.m in Sources */,
+				F88A281A1ED5635E00C0ECE1 /* AppDelegate.m in Sources */,
+				F88A28171ED5635E00C0ECE1 /* main.m in Sources */,
+				F88A28341ED56E7D00C0ECE1 /* FeSlideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F88A281E1ED5635E00C0ECE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88A281F1ED5635E00C0ECE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F88A28231ED5635E00C0ECE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F88A28241ED5635E00C0ECE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F88A28271ED5635E00C0ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F88A28281ED5635E00C0ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F88A282A1ED5635E00C0ECE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A9B319F16F0EECBF4F817E1 /* Pods-VedioFilterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				INFOPLIST_FILE = VedioFilterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.VedioFilterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F88A282B1ED5635E00C0ECE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F42289271FB9FC906483E69 /* Pods-VedioFilterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				INFOPLIST_FILE = VedioFilterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.VedioFilterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F88A280D1ED5635E00C0ECE1 /* Build configuration list for PBXProject "VedioFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A28271ED5635E00C0ECE1 /* Debug */,
+				F88A28281ED5635E00C0ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F88A28291ED5635E00C0ECE1 /* Build configuration list for PBXNativeTarget "VedioFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F88A282A1ED5635E00C0ECE1 /* Debug */,
+				F88A282B1ED5635E00C0ECE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F88A280A1ED5635E00C0ECE1 /* Project object */;
+}

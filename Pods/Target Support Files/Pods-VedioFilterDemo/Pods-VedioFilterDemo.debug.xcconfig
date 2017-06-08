@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+CLANG_MODULES_AUTOLINK = YES
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FeSlideFilterView" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/PPSliderCaptureView" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/FeSlideFilterView" "$PODS_CONFIGURATION_BUILD_DIR/GPUImage" "$PODS_CONFIGURATION_BUILD_DIR/PPSliderCaptureView" "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FeSlideFilterView" -isystem "${PODS_ROOT}/Headers/Public/GPUImage" -isystem "${PODS_ROOT}/Headers/Public/PPSliderCaptureView" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FeSlideFilterView" -l"GPUImage" -l"PPSliderCaptureView" -l"SVProgressHUD" -framework "AVFoundation" -framework "CoreMedia" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uSh-de-owS">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0qM-gi-bql">
+            <objects>
+                <navigationController id="uSh-de-owS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nu6-S9-Mvs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PeV-ds-8N5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NzK-Y5-oiQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2370" y="-153"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dQ-GH-Wlp" customClass="GPUImageView">
+                                <rect key="frame" x="0.0" y="86" width="187" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qWj-3u-LE2" customClass="GPUImageView">
+                                <rect key="frame" x="195" y="86" width="180" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZO-CW-MWD">
+                                <rect key="frame" x="77" y="364" width="177" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FsS-kF-i5t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPW-NW-v2a">
+                                <rect key="frame" x="77" y="417" width="177" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="视频实时滤镜"/>
+                                <connections>
+                                    <segue destination="J4P-QH-0Wi" kind="push" id="ksU-pU-NWK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcD-8L-QS7">
+                                <rect key="frame" x="77" y="470" width="177" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="视频水印"/>
+                                <connections>
+                                    <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTg-1Z-E4e"/>
+                                    <segue destination="770-p2-RMO" kind="push" id="U9V-ot-yBJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52941176469999995" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="THC-tE-KLQ"/>
+                    <connections>
+                        <outlet property="filter2View" destination="qWj-3u-LE2" id="DA6-Sl-nFT"/>
+                        <outlet property="filterView" destination="6dQ-GH-Wlp" id="kUQ-fI-aid"/>
+                        <outlet property="movieButton" destination="IZO-CW-MWD" id="Hvo-6K-ggx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1566" y="-265"/>
+        </scene>
+        <!--水印-->
+        <scene sceneID="I2a-fw-HkD">
+            <objects>
+                <viewController storyboardIdentifier="PPVideoPlayerViewController" title="水印" id="770-p2-RMO" customClass="VedioElementViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kcr-c6-EZY"/>
+                        <viewControllerLayoutGuide type="bottom" id="DXU-9u-gRd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7mU-cj-rFy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8u-MI-D3p">
+                                <rect key="frame" x="28" y="194" width="240" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="查看滤镜视频(水印处理完后才能点)"/>
+                                <connections>
+                                    <action selector="playwatervedio:" destination="770-p2-RMO" eventType="touchUpInside" id="RwI-1x-gjR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vda-5t-wSj">
+                                <rect key="frame" x="28" y="92" width="143" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="查看原视频"/>
+                                <connections>
+                                    <action selector="playorginvideo:" destination="770-p2-RMO" eventType="touchUpInside" id="E05-zf-E3u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="水印" id="c1U-O0-Rww"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kpp-R0-Sbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662" y="210"/>
+        </scene>
+        <!--拍照滤镜-->
+        <scene sceneID="pFH-Kp-kpF">
+            <objects>
+                <viewController id="J4P-QH-0Wi" customClass="FeSlideViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qZF-jk-V8b"/>
+                        <viewControllerLayoutGuide type="bottom" id="buQ-2t-ILm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oex-88-Aix">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rjr-36-tTQ" customClass="PPSlideCaptureView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXe-6s-4d2">
+                                <rect key="frame" x="31" y="227" width="257" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">👈左右滑动切换滤镜👉
+点击拍照，长按拍摄小视频</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.94901960780000005" green="0.38823529410000002" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rjr-36-tTQ" firstAttribute="top" secondItem="oex-88-Aix" secondAttribute="top" id="8Vy-Lu-FpU"/>
+                            <constraint firstItem="buQ-2t-ILm" firstAttribute="top" secondItem="Rjr-36-tTQ" secondAttribute="bottom" id="bKq-8z-XbF"/>
+                            <constraint firstAttribute="trailing" secondItem="Rjr-36-tTQ" secondAttribute="trailing" id="kDu-Jv-3Nz"/>
+                            <constraint firstItem="Rjr-36-tTQ" firstAttribute="leading" secondItem="oex-88-Aix" secondAttribute="leading" id="xQB-ky-Agk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="拍照滤镜" id="QKu-NH-Sti">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="OhF-V1-ETf"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="captureView" destination="Rjr-36-tTQ" id="gLP-U9-vWd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1k1-Bq-TNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-720.79999999999995" y="-523.088455772114"/>
+        </scene>
+    </scenes>
+</document>

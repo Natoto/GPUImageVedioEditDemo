@@ -1,0 +1,1 @@
+../../../../../HBLocalPod/PPSliderCaptureView/HBGPUImageFilters/Filters/IFEarlybirdFilter.h

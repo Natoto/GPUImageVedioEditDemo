@@ -1,0 +1,24 @@
+{
+  "name": "PPSliderCaptureView",
+  "version": "0.0.4",
+  "summary": "PPSliderCaptureView desc",
+  "homepage": "https://github.com/natoto/HBLocalPod",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/natoto/HBLocalPod"
+  },
+  "source_files": "PPSliderCaptureView/**/*.{h,m}",
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "resources": "PPSliderCaptureView/**/*.{png,jpg,bundle}",
+  "dependencies": {
+    "GPUImage": [
+
+    ]
+  }
+}

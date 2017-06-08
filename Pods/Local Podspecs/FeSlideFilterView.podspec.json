@@ -1,0 +1,19 @@
+{
+  "name": "FeSlideFilterView",
+  "version": "0.0.2",
+  "summary": "FeSlideFilterView desc",
+  "homepage": "https://github.com/natoto/HBLocalPod",
+  "authors": {
+    "nonato": "787038442@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "."
+  },
+  "source_files": "FeSlideFilterView/*.{h,m}",
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "resources": "FeSlideFilterView/**/*.{png,jpg}"
+}
