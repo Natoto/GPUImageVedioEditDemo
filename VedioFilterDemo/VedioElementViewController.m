@@ -179,7 +179,7 @@
 //    subView.backgroundColor = [UIColor colorWithWhite:1 alpha:0.5];
     
     [subView addSubview:label];
-    for (int index = 0; index<5; index++) {
+    for (int index = 0; index<2; index++) {
         UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
         imageView.center = CGPointMake(size.width-20, size.height-20);
         [subView addSubview:imageView];
