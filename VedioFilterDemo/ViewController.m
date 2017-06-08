@@ -75,6 +75,8 @@
 - (IBAction)buttonTap:(id)sender {
     [self start_stop];
 }
+- (IBAction)avfoundationTap:(id)sender {
+}
 
 
 

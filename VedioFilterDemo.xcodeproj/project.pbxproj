@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D2D1520175CCE74489A4361D /* libPods-VedioFilterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0F6AC4AAD520CD6178E0DD /* libPods-VedioFilterDemo.a */; };
+		F879482E1EE9725300B6BF31 /* AVWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F879482D1EE9725300B6BF31 /* AVWaterViewController.m */; };
+		F87948311EE97E4B00B6BF31 /* CropVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87948301EE97E4B00B6BF31 /* CropVedioViewController.m */; };
 		F88A28171ED5635E00C0ECE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A28161ED5635E00C0ECE1 /* main.m */; };
 		F88A281A1ED5635E00C0ECE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A28191ED5635E00C0ECE1 /* AppDelegate.m */; };
 		F88A281D1ED5635E00C0ECE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88A281C1ED5635E00C0ECE1 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 		2F42289271FB9FC906483E69 /* Pods-VedioFilterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VedioFilterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VedioFilterDemo/Pods-VedioFilterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5A9B319F16F0EECBF4F817E1 /* Pods-VedioFilterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VedioFilterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VedioFilterDemo/Pods-VedioFilterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9C0F6AC4AAD520CD6178E0DD /* libPods-VedioFilterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VedioFilterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F879482C1EE9725300B6BF31 /* AVWaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVWaterViewController.h; sourceTree = "<group>"; };
+		F879482D1EE9725300B6BF31 /* AVWaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVWaterViewController.m; sourceTree = "<group>"; };
+		F879482F1EE97E4B00B6BF31 /* CropVedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropVedioViewController.h; sourceTree = "<group>"; };
+		F87948301EE97E4B00B6BF31 /* CropVedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropVedioViewController.m; sourceTree = "<group>"; };
 		F88A28121ED5635E00C0ECE1 /* VedioFilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VedioFilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88A28161ED5635E00C0ECE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F88A28181ED5635E00C0ECE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +113,10 @@
 				F88A28331ED56E7D00C0ECE1 /* FeSlideViewController.m */,
 				F8CE079C1EE45E7900273AE4 /* VedioElementViewController.h */,
 				F8CE079D1EE45E7900273AE4 /* VedioElementViewController.m */,
+				F879482C1EE9725300B6BF31 /* AVWaterViewController.h */,
+				F879482D1EE9725300B6BF31 /* AVWaterViewController.m */,
+				F879482F1EE97E4B00B6BF31 /* CropVedioViewController.h */,
+				F87948301EE97E4B00B6BF31 /* CropVedioViewController.m */,
 				F88A28211ED5635E00C0ECE1 /* Assets.xcassets */,
 				F88A28351ED56EED00C0ECE1 /* done@2x.png */,
 				F88A28371ED56F4200C0ECE1 /* profileios.jpeg */,
@@ -256,11 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87948311EE97E4B00B6BF31 /* CropVedioViewController.m in Sources */,
 				F8CE079E1EE45E7900273AE4 /* VedioElementViewController.m in Sources */,
 				F88A281D1ED5635E00C0ECE1 /* ViewController.m in Sources */,
 				F88A281A1ED5635E00C0ECE1 /* AppDelegate.m in Sources */,
 				F88A28171ED5635E00C0ECE1 /* main.m in Sources */,
 				F88A28341ED56E7D00C0ECE1 /* FeSlideViewController.m in Sources */,
+				F879482E1EE9725300B6BF31 /* AVWaterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

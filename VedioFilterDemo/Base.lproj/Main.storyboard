@@ -48,16 +48,16 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZO-CW-MWD">
-                                <rect key="frame" x="77" y="364" width="177" height="45"/>
+                                <rect key="frame" x="8" y="364" width="135" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="START"/>
+                                <state key="normal" title="拍照"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FsS-kF-i5t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPW-NW-v2a">
-                                <rect key="frame" x="77" y="417" width="177" height="45"/>
+                                <rect key="frame" x="8" y="404" width="135" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="视频实时滤镜"/>
@@ -66,13 +66,32 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcD-8L-QS7">
-                                <rect key="frame" x="77" y="470" width="177" height="45"/>
+                                <rect key="frame" x="8" y="445" width="135" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="视频水印"/>
+                                <state key="normal" title="GPUImage视频水印"/>
                                 <connections>
                                     <action selector="buttonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTg-1Z-E4e"/>
                                     <segue destination="770-p2-RMO" kind="push" id="U9V-ot-yBJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3L-ia-I9B">
+                                <rect key="frame" x="8" y="490" width="135" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="AVFoundation视频水印"/>
+                                <connections>
+                                    <action selector="avfoundationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GzJ-Km-hCa"/>
+                                    <segue destination="LDn-ZW-Mvs" kind="push" id="cdz-63-QOy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IM3-dy-LPX">
+                                <rect key="frame" x="160" y="364" width="152" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.62352941179999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="视频裁剪"/>
+                                <connections>
+                                    <segue destination="xw7-rn-kWi" kind="push" id="oOu-fX-nzx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,7 +106,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1566" y="-265"/>
+            <point key="canvasLocation" x="-1567.5" y="-265.14084507042253"/>
+        </scene>
+        <!--AV水印-->
+        <scene sceneID="DkC-ab-3nx">
+            <objects>
+                <viewController id="LDn-ZW-Mvs" customClass="AVWaterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BbL-TX-HtX"/>
+                        <viewControllerLayoutGuide type="bottom" id="qkf-YE-bnB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wyw-gQ-dKu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="AV水印" id="r6C-ES-b1p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33h-R7-8DS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2093" y="625"/>
+        </scene>
+        <!--视频裁剪-->
+        <scene sceneID="a9y-Mt-I5H">
+            <objects>
+                <viewController id="xw7-rn-kWi" customClass="CropVedioViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AER-Iz-p28"/>
+                        <viewControllerLayoutGuide type="bottom" id="Siv-bV-vph"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6WN-QM-NOD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="视频裁剪" id="4bn-aq-guz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u8c-hM-1CZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-722" y="278"/>
         </scene>
         <!--水印-->
         <scene sceneID="I2a-fw-HkD">
@@ -124,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kpp-R0-Sbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-662" y="210"/>
+            <point key="canvasLocation" x="647" y="-78"/>
         </scene>
         <!--拍照滤镜-->
         <scene sceneID="pFH-Kp-kpF">
